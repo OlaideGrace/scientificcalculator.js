@@ -1,0 +1,37 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+.container {
+width: 200px;
+border: 1px solid;
+color: #f0f036;
+padding: 10px;
+border-radius: 5px;
+}
+
+#display {
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+h1 {
+  margin: 20px;  
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cf1313;
+}
+
+
+
