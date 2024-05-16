@@ -12,7 +12,7 @@
     <h1>Scientific Calculator</h1>
     <input type="text" id="display" disabled>
     <div class="button">
-        <button onclick="clearDisplay()">AC</button>
+        <button class="clear" onclick="clearDisplay()">AC</button>
         <button onclick="appendToDisplay('7')">7</button>
         <button onclick="appendToDisplay('8')">8</button>
         <button onclick="appendToDisplay('9')">9</button>
@@ -22,14 +22,14 @@
         <button onclick="appendToDisplay('1')">1</button>
         <button onclick="appendToDisplay('2')">2</button>
         <button onclick="appendToDisplay('3')">3</button>
+        <button class="clear" onclick="clearDisplay()">DEL</button>
         <button onclick="appendToDisplay('0')">0</button>
         <button onclick="appendToDisplay('.')">.</button>
         <button onclick="appendToDisplay('*')">*</button>
         <button onclick="appendToDisplay('+')">+</button>
         <button onclick="appendToDisplay('-')">-</button>
-        <button onclick="calculateResult()">=</button>
+        <button class="equals" onclick="calculateResult()">=</button>
         <button onclick="appendToDisplay('/')">/</button>
-        <button onclick="clearDisplay()">DEL</button>
     </div>
 </div>
 
